@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The task of movies</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../main.css">
+
+  </head>
+  <body>
+    <header>
+      <div id="menu"></div>
+
+      <div class="header-title">
+        <h1>CineSpectra</h1>
+        <p class="subtitle">Explore the Spectra of Cinematic Delights</p>
+        <p id="time">TIME</p>
+      </div>
+    </header>
+
+    <main>
+      <aside id="left-aside"></aside>
+
+      <section class="middle-content">
+        <div id="middle-content"></div>
+      </section>
+
+      <aside id="right-aside">
+        <div class="button-lightdark">
+          <button
+            id="lightdark"
+            onclick="toggleMode()"
+            style="background-image: url('moon.png'); background-size: 70px"
+          ></button>
+        </div>
+      </aside>
+    </main>
+    <section class="goback">
+      <a href="#">
+        <button class="goback-button">Go To Back</button>
+      </a>
+    </section>
+    <footer>&copy;2023</footer>
+
+    <script src="../main.js"></script>
+    <script src="movie.js"></script>
+  </body>
+</html>
