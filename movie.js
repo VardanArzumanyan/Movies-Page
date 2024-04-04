@@ -107,10 +107,10 @@ function toggleMode() {
   modeToggle = !modeToggle;
   if (modeToggle) {
     button.classList.add("dark-mode");
-    button.style.backgroundImage = "url('sun.png')";
+    button.style.backgroundImage = "url('./image/sun.png')";
   } else {
     button.classList.remove("dark-mode");
     button.classList.add("black-mode");
-    button.style.backgroundImage = "url('moon.png')";
+    button.style.backgroundImage = "url('./image/moon.png')";
   }
 }
